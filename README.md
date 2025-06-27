@@ -1,30 +1,36 @@
-# unpkg
-
-South African Provinces GeoJSON
+# South African Provinces GeoJSON
 This repository contains GeoJSON files for the provinces of South Africa, suitable for mapping, analysis, and visualization.
 
-Files
-south_africa_provinces.geojson: Boundaries of all 9 South African provinces with properties (e.g., province name, ISO code).
+## 📂 Files
+- south_africa_provinces.geojson: Boundaries of all 9 South African provinces with properties (e.g., province name, ISO code).
 
-Usage
-Direct Link:
+## 🛠️ Usage
+1. Direct Link:
 
 text
-(https://raw.githubusercontent.com/apiwemagama/unpkg/b9dbfede97fdca0c47ec2b099dfd9cf69a90d6c8/sa_provinces.geojson)  
-Integration: Use with mapping libraries like Leaflet.js, Mapbox GL JS, or Google Maps API.
+https://raw.githubusercontent.com/apiwemagama/unpkg/b9dbfede97fdca0c47ec2b099dfd9cf69a90d6c8/sa_provinces.geojson
 
-Example for Leaflet.js:
+2. Integration: Use with:
+
+Leaflet.js:
 
 js
 fetch('https://raw.githubusercontent.com/apiwemagama/unpkg/b9dbfede97fdca0c47ec2b099dfd9cf69a90d6c8/sa_provinces.geojson')  
   .then(response => response.json())  
   .then(data => L.geoJSON(data).addTo(map));  
-Preview: Visualize the data using geojson.io or GitHub’s built-in GeoJSON viewer.
+Mapbox/Google Maps: Load via their respective GeoJSON methods.
 
-Data Sources
-Province boundaries derived from OpenStreetMap.
+3. Preview:
 
-ISO codes aligned with South African government standards.
+Drag-and-drop the file into geojson.io.
 
-License
-This data is free to use for any purpose (public domain). Attribution is appreciated but not required.
+GitHub’s built-in viewer (click the file).
+
+## 📊 Data Sources
+
+- Province boundaries: Derived from OpenStreetMap (simplified for clarity).
+- ISO codes: Matched with South African government standards.
+
+## 📜 License
+
+Public Domain: No restrictions—use freely for any purpose (credit appreciated but not required).
