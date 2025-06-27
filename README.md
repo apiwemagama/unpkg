@@ -7,8 +7,9 @@ This repository contains GeoJSON files for the provinces of South Africa, suitab
 ## 🛠️ Usage
 1. **Direct Link**:
 
-text
+```text
 https://raw.githubusercontent.com/apiwemagama/unpkg/b9dbfede97fdca0c47ec2b099dfd9cf69a90d6c8/sa_provinces.geojson
+```
 
 2. **Integration**: Use with:
 - **Leaflet.js**:
